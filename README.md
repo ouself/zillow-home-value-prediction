@@ -2,6 +2,10 @@
 
 Predicting residential property tax valuations using structured property data, comparing three regression approaches through a full feature engineering, selection, and hyperparameter tuning pipeline.
 
+## Dataset 
+
+Zillow property dataset (2017 Kaggle Zestimate competition data), accessed via course repository at https://www.cs.bu.edu/fac/snyder/cs505/Data/zillow_dataset.csv. Download and place in the project root as zillow_dataset.csv before running the notebook.
+
 ## Problem
 
 Given ~78,000 property records with features like square footage, location, and structural attributes, predict the assessed property tax value (`taxvaluedollarcnt`). The dataset spans a wide range ($1,000 to nearly $49 million) with heavy right-skew, making this a genuinely challenging regression problem.
